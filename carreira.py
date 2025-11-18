@@ -16,8 +16,8 @@ class Carreira:
     def recomendar(self, perfil):
         score = self.compatibilidade(perfil)
         if score >= 75:
-            return f"💼 {self.nome} — Alta compatibilidade ({score:.1f}%)"
+            return f" {self.nome} — Alta compatibilidade ({score:.1f}%)"
         elif score >= 50:
-            return f"🔹 {self.nome} — Compatibilidade moderada ({score:.1f}%)"
+            return f" {self.nome} — Compatibilidade moderada ({score:.1f}%)"
         else:
-            return f"⚪ {self.nome} — Baixa compatibilidade ({score:.1f}%)"
+            return f"{self.nome} — Baixa compatibilidade ({score:.1f}%)"

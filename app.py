@@ -46,7 +46,7 @@ def main():
     for c in carreiras:
         print(c.recomendar(perfil))
 
-    print("\nObrigado por usar o sistema! 🚀")
+    print("\nObrigado por usar o sistema! ")
 
 if __name__ == "__main__":
     main()
